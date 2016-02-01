@@ -604,7 +604,7 @@ a:hover {
           transform: translate(-50%, -50%);
 }
 
-#android {
+#robot {
   position: absolute;
   right: -100px;
   bottom: -100px;
@@ -651,3 +651,14 @@ a:hover {
   top: 0;
 }
 
+#logo {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+#android {
+  overflow: hidden;
+}
